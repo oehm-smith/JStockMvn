@@ -15,6 +15,7 @@ Another reason for creating this is for my new project [StockRS](https://github.
 * Run-As > Java Application and choose `org.yccheok.jstock.gui.MainFrame` as the main class (if this Run Configuration doesn't already exist).
 
 ## Command-Line
-	mvn package
-	java -jar target/jstock.jar
+	./install.sh 	# to install the local jars into the maven repository
+	mvn package	# to create the .jar
+	java -jar target/JStockMvn-1.0-SNAPSHOT.jar	# to run it
 
