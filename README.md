@@ -6,3 +6,15 @@ A copy of the excellent JStock ported to Eclipse instead of Netbeans and Maven i
 The original JStock is at [http://jstock.sourceforge.net/](http://jstock.sourceforge.net/).
 
 Another reason for creating this is for my new project [StockRS](https://github.com/oehm-smith/StockRS), which is purely a stock portfolio management service with a RESTful web services interface.  It will be based on JStock.
+
+# Configuration
+* None at this stage excepting what is required by JStock
+
+# Running
+## Eclipse (development)
+* Run-As > Java Application and choose `org.yccheok.jstock.gui.MainFrame` as the main class (if this Run Configuration doesn't already exist).
+
+## Command-Line
+	mvn package
+	java -jar target/jstock.jar
+
